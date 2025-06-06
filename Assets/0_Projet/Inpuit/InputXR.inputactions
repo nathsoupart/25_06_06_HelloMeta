@@ -1,0 +1,56 @@
+{
+    "name": "InputXR",
+    "maps": [
+        {
+            "name": "Input Default XR",
+            "id": "ee6594c1-d59f-4262-867d-910dc6154b6e",
+            "actions": [
+                {
+                    "name": "Load Between Two Point",
+                    "type": "Button",
+                    "id": "eafd44b5-3cbe-49c3-a93b-53c22d9362a1",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c59d4884-3b47-4f82-84ac-7c58fe67bfec",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Load Between Two Point",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1657c0b6-eae2-43fc-bc5a-9283a51b1015",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Load Between Two Point",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bb543825-7c5e-4fc4-8a5a-f834eed6846f",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Load Between Two Point",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
